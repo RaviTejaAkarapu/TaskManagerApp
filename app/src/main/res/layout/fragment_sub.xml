@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frame2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".subFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tex1"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:gravity="left"
+        android:layout_gravity="center"
+
+        android:text="@string/hello_blank_fragment" />
+
+    <ToggleButton
+        android:id="@+id/togglebutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        android:padding="5dp"
+        android:text="Change Status"
+        android:textOff="Mark Pending"
+        android:textOn="Mark Complete" />
+
+
+</LinearLayout>
